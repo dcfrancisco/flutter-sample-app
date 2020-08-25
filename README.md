@@ -1,6 +1,7 @@
 # flutter_sample_app
 
 A new Flutter project.
+   1. Added decrement button
 
 ## Getting Started
 
