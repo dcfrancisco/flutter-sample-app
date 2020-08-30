@@ -172,16 +172,16 @@ class _LoginViewState extends State<Login> {
             child: SingleChildScrollView(
               padding: EdgeInsets.all(36),
               child: Container(
-                height: mq.size.height,
+                //height: mq.size.height,
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
                   children: <Widget>[
-                    logo,
-                    fields,
                     Padding(
-                      padding: EdgeInsets.only(bottom: 50),
-                      child: bottom,
+                      padding: EdgeInsets.only(top: 40),
+                      child: logo,
                     ),
+                    fields,
+                    bottom,
                   ],
                 ),
               ),
